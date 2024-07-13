@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Juego De Pares",
+    "slug": "juegodepares",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/logo-insti.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-insti.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [],
+      "package":"com.juanka.pairgameitsj",
+      "versionCode":1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
